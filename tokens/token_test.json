@@ -1051,7 +1051,7 @@
     },
     "button": {
       "background": {
-        "value": "{theme.primary.color}",
+        "value": "{accordion.header.active.color}",
         "type": "color"
       },
       "color": {
