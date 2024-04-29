@@ -766,27 +766,28 @@
       },
       "border": {
         "value": {
-          "color": "{input.borderColor}",
+          "color": "#8D8D8D",
           "width": "1",
           "style": "solid"
         },
-        "type": "border"
+        "type": "border",
+        "description": "border at the bottom only"
       },
       "padding": {
         "top": {
-          "value": "10.5",
+          "value": "12",
           "type": "spacing"
         },
         "right": {
-          "value": "10.5",
+          "value": "16",
           "type": "spacing"
         },
         "bottom": {
-          "value": "10.5",
+          "value": "12",
           "type": "spacing"
         },
         "left": {
-          "value": "10.5",
+          "value": "16",
           "type": "spacing"
         }
       }
@@ -1771,7 +1772,7 @@
       },
       "padding": {
         "top": {
-          "value": "8",
+          "value": "12",
           "type": "spacing"
         },
         "right": {
@@ -1779,7 +1780,7 @@
           "type": "spacing"
         },
         "bottom": {
-          "value": "8",
+          "value": "12",
           "type": "spacing"
         },
         "left": {
@@ -7515,6 +7516,10 @@
         "green": {
           "value": "#069A8F",
           "type": "color"
+        },
+        "blue": {
+          "value": "#0F62FE",
+          "type": "color"
         }
       },
       "background_base": {
@@ -7545,6 +7550,12 @@
             "value": "#043347",
             "type": "color"
           }
+        }
+      },
+      "border": {
+        "input": {
+          "value": "#8D8D8D",
+          "type": "color"
         }
       }
     }
