@@ -6078,7 +6078,7 @@
         "type": "color"
       },
       "borderRadius": {
-        "value": "16",
+        "value": "32",
         "type": "borderRadius"
       },
       "typography": {
