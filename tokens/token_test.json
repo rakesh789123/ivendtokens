@@ -1825,7 +1825,7 @@
       },
       "rounded": {
         "borderRadius": {
-          "value": "{global.fontSize}*2",
+          "value": "{global.fontSize}*4",
           "type": "borderRadius"
         }
       },
@@ -7149,7 +7149,8 @@
       "lineheight": {
         "value": "{progressbar.height}",
         "type": "lineHeights"
-      }
+      },
+      "type": "other"
     },
     "text-xl": {
       "regular": {
