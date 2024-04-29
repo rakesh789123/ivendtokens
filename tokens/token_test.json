@@ -1771,19 +1771,19 @@
       },
       "padding": {
         "top": {
-          "value": "{global.fontSize}*0.75",
+          "value": "8",
           "type": "spacing"
         },
         "right": {
-          "value": "{global.fontSize}*1.25",
+          "value": "16",
           "type": "spacing"
         },
         "bottom": {
-          "value": "{global.fontSize}*0.75",
+          "value": "8",
           "type": "spacing"
         },
         "left": {
-          "value": "{global.fontSize}*1.25",
+          "value": "8",
           "type": "spacing"
         }
       },
@@ -1825,13 +1825,31 @@
       },
       "rounded": {
         "borderRadius": {
-          "value": "{global.fontSize}*4",
+          "value": "{global.fontSize}*0",
           "type": "borderRadius"
         }
       },
       "typography": {
         "value": "{text-base.bold.lineheight-auto}",
         "type": "typography"
+      },
+      "tab": {
+        "top": {
+          "value": "16",
+          "type": "spacing"
+        },
+        "right": {
+          "value": "16",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "30",
+          "type": "spacing"
+        },
+        "left": {
+          "value": "16",
+          "type": "spacing"
+        }
       }
     },
     "checkbox": {
@@ -7113,14 +7131,8 @@
         "type": "color"
       },
       "value": {
-        "background": {
-          "value": "{theme.primary.color}",
-          "type": "color"
-        },
-        "color": {
-          "value": "{theme.primary.contrast.color}",
-          "type": "color"
-        }
+        "background": "[object Object]",
+        "color": "[object Object]"
       },
       "border": {
         "value": {
@@ -7497,6 +7509,44 @@
           "type": "typography"
         }
       }
+    },
+    "ivend": {
+      "button": {
+        "green": {
+          "value": "#069A8F",
+          "type": "color"
+        }
+      },
+      "background_base": {
+        "background": {
+          "value": "#F4F4F4",
+          "type": "color"
+        },
+        "cell": {
+          "header": {
+            "header": {
+              "value": "#E0E0E0",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "tabs": {
+        "blue": {
+          "light": {
+            "value": "#1A6D90",
+            "type": "color"
+          },
+          "medium": {
+            "value": "#0B4D69",
+            "type": "color"
+          },
+          "dark": {
+            "value": "#043347",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "lara-dark": {
@@ -7548,14 +7598,8 @@
         "type": "color"
       },
       "value": {
-        "background": {
-          "value": "{theme.primary.color}",
-          "type": "color"
-        },
-        "color": {
-          "value": "{theme.primary.contrast.color}",
-          "type": "color"
-        }
+        "background": "[object Object]",
+        "color": "[object Object]"
       },
       "type": "other"
     },
