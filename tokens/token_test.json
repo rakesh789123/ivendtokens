@@ -754,12 +754,14 @@
         "fontSize": {
           "value": "{global.fontSize}*1",
           "type": "fontSizes"
-        },
+        }
+      },
+      "title": {
         "typography": {
           "value": {
             "fontWeight": "{fontweight.regular}",
             "lineHeight": "{lineheight.auto}",
-            "fontSize": "{input.text.fontSize}"
+            "fontSize": "12"
           },
           "type": "typography"
         }
@@ -7520,6 +7522,10 @@
         "blue": {
           "value": "#0F62FE",
           "type": "color"
+        },
+        "active green": {
+          "value": "#005D5D",
+          "type": "color"
         }
       },
       "background_base": {
@@ -7555,6 +7561,12 @@
       "border": {
         "input": {
           "value": "#8D8D8D",
+          "type": "color"
+        }
+      },
+      "color": {
+        "red": {
+          "value": "#FA4D56",
           "type": "color"
         }
       }
